@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.container{
+            background-color: lightsalmon;
+            display: flex;
+            flex-flow: row wrap;
+            height: 300px;
+            align-items: flex-start;
+        }
+        div.item{
+            background-color: blueviolet;
+            border: 1px solid orange;
+            text-align: center;
+            padding: 20px;
+        }
+
+        div#i1 {
+            order: 4;
+            align-self: center;
+        }
+        div#i2 {
+            order: 0;
+            align-self: stretch;
+        }
+        div#i3 {
+            order: 1;
+            align-self:center ;
+        }
+        div#i4 {
+            order: 3;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">A</div>
+        <div class="item" id="i2">B</div>
+        <div class="item" id="i3">C</div>
+        <div class="item" id="i4">D</div>
+    </div>
+</body>
+</html>

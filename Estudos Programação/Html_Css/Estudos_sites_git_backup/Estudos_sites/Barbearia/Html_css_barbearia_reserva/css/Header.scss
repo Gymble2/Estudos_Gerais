@@ -1,0 +1,82 @@
+header {
+  width: 100%;
+}
+
+.header-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+i {
+    color: #fff;
+  }
+  
+.header-icones {
+    display: flex;
+    gap: 40px;
+    width: 160px;
+    height: 160px;
+    margin: 60px 0px 0px 80px;
+  }
+  
+
+
+
+.logo-barbearia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px ;
+    margin-left: 39px;
+    margin-right: 0 auto;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
+.header-botao {
+  padding: 16px 35px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+  line-height: 1;
+  background: #2590f3;
+  text-decoration: none;
+  color: white;
+  font-size: 11px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: background-color .6s ease;
+  overflow: hidden;
+  &:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50%;
+    left: 50%;
+    top: var(--mouse-y);
+    left: var(--mouse-x);
+    transform-style: flat;
+    transform: translate3d(-50%,-50%,0);
+    background: rgba(white,.1);
+    border-radius: 100%;
+    transition: width .3s ease, height .3s ease;
+  }
+  &:focus,
+  &:hover {
+      background: darken(#FC6E51,7%);
+  }
+  &:active {
+    &:after {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 762px){
+    header{
+       display: none;
+    }
+}

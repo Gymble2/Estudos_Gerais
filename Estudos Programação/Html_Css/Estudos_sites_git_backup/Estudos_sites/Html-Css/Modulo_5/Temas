@@ -1,0 +1,71 @@
+Flex box
+Grid Layout
+
+HTML 5 
+
+CSS 3 ->
+CSS FLEXIBLE BOX MODULE LEVEL 1
+
+SCSS
+
+ITEMS NÂO RECEBEM comando flex 
+
+cross-axis = linha ou coluna secundaria com base no tipo escolhido
+main-axis = linha ou coluna chefe com base no tipo escolhido
+
+cross-start= parte de cima do container
+cross-end = parte de baixo do container
+
+main-start = começo do container 
+main-end = fim do container 
+
+flex-direction: row = linha esquerda pra direita
+flex-direction: row-reverse = linha direita para esquerda
+
+flex-direction: column = coluna de cima pra baixo
+flex-direction: column-reverse = coluna de baixo para cima
+
+flex-wrap: nowrap = não "quebra" ou não encapsule os items
+flex-wrap: wrap = pega o ultimo elemento e "quebra" o elemento no sentido cros-axis
+flex-wrap: wrap-reverse = pega o elemento e quebra no sentido contrario do cross-axis
+
+flex-flow: row nowrap = é um comando possivel que agrupa tanto o wrap quanto o flex direction
+
+
+*SEMPRE NO EIXO PRINCIPAL*
+justify-content = faz alinhamento com base com o main-axis
+justify-content:flex-start = alinha no começo do container e deixa o espaço em branco no final do eixo principal
+justify-content:flex-end = alinha no fim do container e deixa o espaço em branco no final do eixo principal
+justify-content:center = alinha no centro e distribui os espaços em branco distribuidos nos cantos
+justify-conttent: space-between = pega o primeiro item e coloca n ocomeço e o ultimo no fim do eixo e espaço entre eles
+justify-content: space-evenly = alinha os items com espaço em brancos iguais para todos eles
+justify-content: space-around = separa espaços e alinha os item entre eles o item bem no meio desses espaços com em branco de sobra
+
+*SEMPRE NO SENTIDO DO EIXO TRANSVERSAL*
+align-items:stretch = estica o conteudo
+align-items:flex-start = alinha com o começo do eixo transversal
+align-items:flex-end = alinha com o fim do eixo transversal
+align-items:center = alinha com o centro do eixo transversal
+
+align-content: = alinha os items no eixo transversal quando está empacotado
+align-content:stretch = estica eles
+align-content:flex-start = alinha os items no começo e deixa um espaço vazio
+align-content:flex-end = alinha os items no final e deixa um espaço vazio
+align-content:center = alinha no centro
+align-content:space-between = alinha igual o justifycontent
+align-content:space-evenly = alinha igual o justifycontent
+align-content:space-around = alinha igual o justifycontent
+
+PROPRIEDADES DOS ITEMS E SEUS TIPOS DENTRO DO CONTAINERS
+
+order - todo elemento tem "order:0" - ajusta os items para crescentes
+order - todo elemento tem "order:0" - 
+align-self = funciona no eixot transversal ->da pra colocar auto/flex-start/flex-end/center/stretch
+
+
+flex-item
+
+*O ENCOLHIMENTO DEPENDE  DO CONTEUDO DENTRO DELE*
+
+
+

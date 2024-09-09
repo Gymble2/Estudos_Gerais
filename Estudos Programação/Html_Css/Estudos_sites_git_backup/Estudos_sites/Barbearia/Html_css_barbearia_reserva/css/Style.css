@@ -1,0 +1,237 @@
+body {
+  font-family: "Sora", sans-serif;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #023805;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  outline: 0;
+}
+
+button {
+  font-family: "Sora", sans-serif;
+  cursor: pointer;
+}
+
+svg {
+  width: 100%;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+.bg-home {
+  position: relative;
+}
+
+.bg-home::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  opacity: 1;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container {
+  max-width: 1642px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+img {
+  max-width: 150px;
+  display: flex;
+  margin-right: 30px;
+}
+
+.header-button:hover {
+  border: 1px solid red;
+  background-color: red;
+}
+
+.central {
+  color: rgb(255, 2, 2);
+  grid-row: auto;
+  min-height: 63vh;
+  display: flex;
+  border-radius: 16px;
+  margin-top: 18px;
+  margin-bottom: 88px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 13px 0px 13px;
+}
+.central h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 30%;
+  max-width: 940px;
+  font-size: 46px;
+  padding-bottom: 60px;
+}
+.central p {
+  font-size: 18px;
+  text-align: center;
+  margin: 30px 14px 10px 10px;
+}
+
+.sobre {
+  overflow: hidden;
+  color: white;
+}
+
+.conteudo {
+  display: flex;
+  background-position: right top;
+  justify-content: center;
+  gap: 40px;
+  padding: 34px 16px 70px 16px;
+  max-width: 86vw;
+  align-items: center;
+}
+.conteudo img {
+  max-width: 1200px;
+}
+.conteudo div {
+  flex: 1;
+}
+
+.Sobre-a-descricao {
+  text-align: center;
+  background: rgba(6, 103, 14, 0.1647058824);
+  color: rgb(221, 221, 221);
+  border-radius: 18px;
+}
+.Sobre-a-descricao h2 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  margin-top: 23px;
+}
+.Sobre-a-descricao p {
+  margin-bottom: 36px;
+  font-size: 22px;
+  flex-direction: column;
+  text-align: center;
+  justify-items: center;
+}
+
+.servicos {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 11px;
+  text-align: center;
+  border-radius: 15px;
+  max-width: 95vw;
+}
+
+.servicos_conteudo h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 14px;
+  font-weight: 300%;
+}
+
+.servicos_conteudo h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 19;
+  margin-bottom: 11px;
+}
+
+.servicos_conteudo p {
+  line-height: 150%;
+  text-align: center;
+  max-width: 630px;
+  margin-bottom: 4px;
+}
+
+.cortes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 36px;
+  gap: 30px;
+  padding: 25px 44px 34px 44px;
+}
+
+.corte {
+  flex: 1;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+.corte img {
+  width: 100%;
+  max-width: 354px;
+  transition: transform 0.2s;
+}
+
+.corte img:hover {
+  transform: scale(1.2);
+  z-index: 3;
+}
+
+.info_corte1 {
+  width: 90, 5;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  background-color: white;
+  z-index: 99;
+}
+.info_corte1 .botaoCabelo {
+  padding: 4px 12px;
+  border-radius: 4px;
+}
+.info_corte1 button:hover {
+  color: white;
+  background-color: red;
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 762px) {
+  * {
+    flex-direction: column;
+  }
+  * h1 {
+    font-size: 60px;
+  }
+  .central {
+    width: 30vw;
+  }
+  .central h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}/*# sourceMappingURL=Style.css.map */

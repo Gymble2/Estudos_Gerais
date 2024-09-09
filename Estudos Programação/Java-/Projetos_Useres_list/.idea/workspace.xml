@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15ab4a93-d7a6-4afb-bb2b-e2c3e14ec47a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ProjectRandomizePassword/Test3" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectRandomizePassword/Test3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectRandomizePassword/out/production/ProjectRandomizePassword/javaTest/Complete/SavePassword.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectRandomizePassword/out/production/ProjectRandomizePassword/javaTest/Complete/SavePassword.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2h3ybHL6Z5oUuJuliymNqDaATsb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Programação_Geral/JavaCode/JAVA/Projeto_Usuarios_list",
+    "onboarding.tips.debug.path": "C:/Users/T-GAMER/Downloads/NEGÓCIO/PROGRAMAÇÂO/JAVA/Projeto_Teste/Projeto_Usuarios_list/src/Main.java",
+    "settings.editor.selected.configurable": "configurable.group.tools"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="MainUsersListFileTXT" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainUsersListFileTXT" />
+      <module name="Projeto_Usuarios_list" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\T-GAMER\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15ab4a93-d7a6-4afb-bb2b-e2c3e14ec47a" name="Changes" comment="" />
+      <created>1716837127207</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716837127207</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Layout/Infos.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Layout/Infos.java</url>
+          <line>30</line>
+          <properties class="Layout.Infos" method="getName">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="Projeto_Usuarios_list" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file://C:/Users/T-GAMER/Downloads/NEGÓCIO/PROGRAMAÇÂO/JAVA/Projeto_Teste/Projeto_Usuarios_list}" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="Projeto_Usuarios_list" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file://C:/Users/T-GAMER/Downloads/NEGÓCIO/PROGRAMAÇÂO/JAVA/Projeto_Teste/Projeto_Usuarios_list}" type="462c0819:PsiDirectoryNode" />
+        <item name="dir{file://C:/Users/T-GAMER/Downloads/NEGÓCIO/PROGRAMAÇÂO/JAVA/Projeto_Teste/Projeto_Usuarios_list/src}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>
