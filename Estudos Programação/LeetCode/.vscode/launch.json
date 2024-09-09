@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LeetCode07",
+            "request": "launch",
+            "mainClass": "LeetCode07",
+            "projectName": "LeetCode_b659c7df"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "LeetCode_b659c7df"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode02",
+            "request": "launch",
+            "mainClass": "LeetCode02",
+            "projectName": "LeetCode_b659c7df"
+        },
+        {
+            "type": "java",
+            "name": "Testes",
+            "request": "launch",
+            "mainClass": "Testes",
+            "projectName": "LeetCode_b659c7df"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode06",
+            "request": "launch",
+            "mainClass": "LeetCode06",
+            "projectName": "LeetCode_b659c7df"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode03",
+            "request": "launch",
+            "mainClass": "LeetCode03",
+            "projectName": "LeetCode_b659c7df"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode04",
+            "request": "launch",
+            "mainClass": "LeetCode04",
+            "projectName": "LeetCode_b659c7df"
+        },
+        {
+            "type": "java",
+            "name": "LeetCode05",
+            "request": "launch",
+            "mainClass": "LeetCode05",
+            "projectName": "LeetCode_b659c7df"
+        }
+    ]
+}
